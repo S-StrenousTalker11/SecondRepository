@@ -49,4 +49,4 @@ Whenever the task taken upon by a side branch is completed, it can be merged wit
 This can be achieved by multiple ways:
 - git merge <-BranchName-> --> Is a command to merge 2 branches.
 - git diff <-BranchName-> --> to compare commits, branches, files & more.
-- Using a PR(Pull Request) --> This is a feature of GitHub that allows you to merge the changes from a branch into the main branch . This is a more formal way of merging branches. It is used when you want to merge the changes from a branch into the main branch after reviewing the changes.
+- Using a PR(Pull Request) --> This is a feature of GitHub that allows you to merge the changes from a branch into the main branch . This is a more formal way of merging branches. It is used when you want to  merge the changes from a branch into the main branch after reviewing the changes. Whenever a side branch pulls ahead of the main branch, we get to make a PR. This PR is then reviewed by a team leader(in a company), and is then merged into the main branch if it is considered appropriate and approved.
