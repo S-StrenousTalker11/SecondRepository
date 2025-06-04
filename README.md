@@ -25,7 +25,8 @@ In the process of pushing this local repo, I learnt:
 - git log --> Viewing the commit history.
 - git push -u origin main --> Making the current branch as the default branch for adding and committing
   changes. By default, the branch is named main. If you want to use a different branch, you can replace main with the name of the branch you want to use. After using this command a single time, whenever we 
-  want to push a change , we can simply use git push without the -u/origin main option.
+  want to push a change , we can simply use git push without the -u/origin main option. Every branch in a repo has its own upstream, ie. its own remote branch. That is what upstream means. Whenever we create
+  branch other than main, we have to connect it to its upstream.
 
 <br>
 
