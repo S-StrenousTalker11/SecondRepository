@@ -1,6 +1,7 @@
 # Second Repository.
-
 Pushing a locally created repo onto GitHub.
+
+<br>
 
 # GitHub Part 2
 This is my second repository. I created this repository locally in my computer and pushed it onto GitHub.
