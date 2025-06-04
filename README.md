@@ -26,3 +26,17 @@ In the process of pushing this local repo, I learnt:
 - git push -u origin main --> Making the current branch as the default branch for adding and committing
   changes. By default, the branch is named main. If you want to use a different branch, you can replace main with the name of the branch you want to use. After using this command a single time, whenever we 
   want to push a change , we can simply use git push without the -u/origin main option.
+
+<br>
+
+# Branches
+
+Whenever a single project is being handled by multiple developers, it is a good practice to create multiple branches for each developer. This is because each developer can work on a different branch without affecting the work of other developers and affecting the main project as well as to save time. This is called branching.
+
+Necessary commands
+ - git branch --> Gives the current branch name.
+ - git branch -M <- BranchName-> --> Renaming the branch.
+ - git checkout <-BranchName-> --> Switching to a different branch.
+ - git checkout -b <-BranchName-> --> Creating a new branch and switching to it at the same time.
+ - git branch -d <-BranchName-> --> Deleting a branch.
+ - git branch -a --> Viewing all the branches in the project.
