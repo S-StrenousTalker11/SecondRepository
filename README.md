@@ -100,3 +100,12 @@ To pull the change from GitHub into our local project, we can use the pull comma
   - git reset <- commit hash-> --hard --> This command is used to remove a commit from the commit history and also remove all the changes from th staging area and the working directory.
 
   We can learn of the commit hash by using the following command: git log.
+
+
+# Forking
+
+ We can make changes to a repository belonging to a different person/company, but we don't have the
+ permission to push the changes to the original repository. This is where forking comes in. Forking
+ is a way to create a copy of a repository. We can make changes to the copy and push the changes to our
+ repository. We can then send a pull request to the original repository owner to merge our changes into
+ their repository. This is a common practice in open source projects.
