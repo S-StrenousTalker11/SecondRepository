@@ -52,7 +52,8 @@ This can be achieved by multiple ways:
 - Using a PR(Pull Request) --> This is a feature of GitHub that allows you to merge the changes from a branch into the main branch . This is a more formal way of merging branches. It is used when you want to  merge the changes from a branch into the main branch after reviewing the changes. Whenever a side branch pulls ahead of the main branch, we get to make a PR. This PR is then reviewed by a team leader(in a company), and is then merged into the main branch if it is considered appropriate and approved.
 
 To pull the change from GitHub into our local project, we can use the pull command.
- - git pull origin main --> Pulling the changes from the main branch in the repository on GitHub into the main branch in the local
+
+ - git pull origin main --> Pulling the changes from the main branch in the repository on GitHub into the main branch in the local project
 
 
 # Gitignore
