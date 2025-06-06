@@ -53,3 +53,49 @@ This can be achieved by multiple ways:
 
 To pull the change from GitHub into our local project, we can use the pull command.
  - git pull origin main --> Pulling the changes from the main branch in the repository on GitHub into the main branch in the local
+
+
+# Gitignore
+
+ Gitignore is a file that is used to ignore certain files and directories in a project. This is
+ useful when you don't want to track certain files in your project. For example, if you
+ have a project that uses a lot of images, you might not want to track all of them in
+ your project. You can add the path to the images in the .gitignore file and Git will
+ ignore them.
+
+
+# Git Tagging
+
+ Git tagging is a way to mark a specific point in the commit history. It is used to mark
+ a release or a milestone in the project.
+
+# Git Stashing
+
+ Git stashing is a way to save the changes you have made in your working directory so that you
+ can come back to them later.
+
+# Fixing Mistakes
+
+ There can be occasions where we add a change to the staging area, and we want to remove it. Similarly,
+ there can be occasions where we want to remove a commit from the commit history. This can be achieved
+ by using the following commands:
+ - git reset HEAD~1 --> This command is used to remove the last commit from the commit history.
+ - git reset HEAD~n --> This command is used to remove the last n commits from the commit history.
+ - git reset --hard --> This command is used to remove all the changes from the staging area and the working directory.
+ - git reset --soft --> This command is used to remove all the changes from the staging area, but the changes are still in the working directory.
+ - git reset --mixed --> This command is used to remove all the changes from the staging area, but the changes are still in the working directory.
+ - git revert HEAD --> This command is used to remove the last commit from the commit history.
+ - git revert HEAD~n --> This command is used to remove the last n commits from the commit history.
+
+ Removing staged changes(git add)
+  - git reset <-FileName-> --> This command is used to remove a file from the staging area.
+  - git reset . --> This command is used to remove all the files from the staging area.
+  
+ Removing committed changes using commit hash
+  Every commit has a hash that is unique to it. We can also remove committed changes using this unique
+  hash
+
+  - git reset <-commit hash-> --> This command is used to remove a commit from the commit history.
+  - git reset <- commit hash-> --hard --> This command is used to remove a commit from the commit history and also remove all the changes from th staging area and the working directory.
+
+  We can learn of the commit hash by using the following command: git log.
